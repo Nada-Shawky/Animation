@@ -1,0 +1,67 @@
+
+@media (max-width: 992px) {
+    .navbar{
+        background-color: var(--second) !important;
+    }
+    .navbar .nav-link{
+        color: var(--labane) !important;
+    }
+    .collapse li .active , .nav-link:hover{
+        color: var(--main) !important;
+    }
+    .navbar{
+        position:inherit
+    }
+
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+
+    .us img{
+        margin-top: 2rem;
+    }
+    .what .white {
+        margin-top: 20px;
+    }
+    
+    .why .only{
+        display: none;
+    }
+
+    .ourStore .none{
+        margin-top: 6rem;
+    }
+    .none1{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .none{
+        display: none
+    }
+    .buttom{
+        margin-top: 40px;
+    }
+
+    .what .prag, .ourStore .prag {
+        width: 100% !important;
+        margin: auto;
+    }
+    .what {
+        padding: 5rem 12px;
+    }
+}
+
+@media (max-width: 576px) { 
+    .carousel-caption{
+        display: block !important;
+
+    }
+    
+}
+
+
+
+
